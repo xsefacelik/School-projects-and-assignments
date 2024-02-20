@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Airline Font", sans-serif;
+}
+
+.none-li {
+  text-decoration: none;
+  list-style: none;
+}
+
+body button {
+  cursor: pointer;
+  border: 6px solid transparent;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+body button:hover {
+  background-color: #87cfff;
+  cursor: pointer;
+  font-size: medium;
+}
+
+button{
+  font-family: "Work Sans", sans-serif;
+}
+td{
+  font-family: "Work Sans", sans-serif;
+}
+label{
+  font-family: "Work Sans", sans-serif;
+}
+div{
+  font-family: "Work Sans", sans-serif;
+}
+p{
+  font-family: "Work Sans", sans-serif;
+}
+
+table{
+  border-top: 0.3rem solid white;
+  border-bottom: 0.3rem solid white;
+}
+
+table * {
+  border: 0.1rem solid white;
+}

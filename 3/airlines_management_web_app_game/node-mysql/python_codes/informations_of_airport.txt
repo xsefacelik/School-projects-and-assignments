@@ -1,0 +1,50 @@
+Heathrow Airport,United Kingdom,London
+JFK International Airport,USA,New York
+Dubai International Airport,United Arab Emirates,Dubai
+Los Angeles International Airport,USA,Los Angeles
+O'Hare International Airport,USA,Chicago
+Beijing Capital International Airport,China,Beijing
+Narita International Airport,Japan,Tokyo
+Charles de Gaulle Airport,France,Paris
+Frankfurt Airport,Germany,Frankfurt
+Amsterdam Airport Schiphol,Netherlands,Amsterdam
+Incheon International Airport,South Korea,Seoul
+Suvarnabhumi Airport,Thailand,Bangkok
+Hong Kong International Airport,Hong Kong,Hong Kong
+Istanbul Airport,Turkey,Istanbul
+Madrid-Barajas Airport,Spain,Madrid
+Shanghai Pudong International Airport,China,Shanghai
+Singapore Changi Airport,Singapore,Singapore
+Toronto Pearson International Airport,Canada,Toronto
+Sydney Airport,Australia,Sydney
+Munich Airport,Germany,Munich
+Leonardo da Vinci-Fiumicino Airport,Italy,Rome
+San Francisco International Airport,USA,San Francisco
+Seattle-Tacoma International Airport,USA,Seattle
+Dallas/Fort Worth International Airport,USA,Dallas/Fort Worth
+Denver International Airport,USA,Denver
+Miami International Airport,USA,Miami
+Vancouver International Airport,Canada,Vancouver
+Pearson Airport,Canada,Toronto
+Barcelona-El Prat Airport,Spain,Barcelona
+Dubai World Central - Al Maktoum International Airport,United Arab Emirates,Dubai
+Charlotte Douglas International Airport,USA,Charlotte
+Dulles International Airport,USA,Washington D.C.
+Minneapolis-Saint Paul International Airport,USA,Minneapolis
+Detroit Metropolitan Wayne County Airport,USA,Detroit
+Brussels Airport,Belgium,Brussels
+Zürich Airport,Switzerland,Zürich
+Vienna International Airport,Austria,Vienna
+London Gatwick Airport,United Kingdom,London
+Manchester Airport,United Kingdom,Manchester
+Edinburgh Airport,United Kingdom,Edinburgh
+Glasgow International Airport,United Kingdom,Glasgow
+Birmingham Airport,United Kingdom,Birmingham
+Frankfurt-Hahn Airport,Germany,Frankfurt
+Hamburg Airport,Germany,Hamburg
+Düsseldorf Airport,Germany,Düsseldorf
+Berlin Brandenburg Airport,Germany,Berlin
+Vienna-Schwechat Airport,Austria,Vienna
+Munich Franz Josef Strauss Airport,Germany,Munich
+Rome Ciampino Airport,Italy,Rome
+Milan Malpensa Airport,Italy,Milan

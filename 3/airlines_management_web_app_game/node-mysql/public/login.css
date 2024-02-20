@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/cloud-accounting-software-2-kaliteli.jpg);
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  height: 60%;
+  padding: 3rem;
+  background-color: #91c8e4ea;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid transparent;
+  border-radius: 15px;
+}
+
+.box .back-button {
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 1rem;
+}
+
+.box .back-button:hover {
+  color: white;
+}
+
+/* Options section */
+.box .items-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#head {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#buttons {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  padding: 3rem 2rem;
+}
+#empty {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+#sign-in,
+#join-now {
+  flex: 3;
+  height: 100%;
+  width: 100%;
+}
+button {
+  height: 100%;
+  width: 100%;
+  border: 6px solid transparent;
+  border-radius: 15px;
+}
+
+/* Sign in section */
+.box .items-second {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.box .items-second .title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box .items-second .form {
+  flex: 5;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.box .items-second .form form {
+  flex: 5;
+  display: flex;
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box .items-second .form .log-in {
+  flex: 1;
+}
+.box .items-second .form .username {
+  height: 25%;
+  width: 100%;
+}
+.box .items-second .form .password {
+  height: 25%;
+  width: 100%;
+}
+.box .items-second .form form label {
+  width: 70%;
+  margin: 1rem 0;
+}
+.box .items-second .form form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 6px solid transparent;
+  border-radius: 15px;
+}
+
+/* Join Section */
+.box .items-third {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.box .items-third .title {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box .items-third .form {
+  flex: 5;
+  width: 55%;
+}
+.box .items-third .form form {
+  flex: 6;
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box .items-third .form .log-in {
+  flex: 1;
+}
+.box .items-third .form form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .items-third .form .username {
+  height: 25%;
+  width: 100%;
+}
+.box .items-third .form .password {
+  height: 25%;
+  width: 100%;
+}
+.box .items-third .form .log-in {
+  height: 10%;
+  width: 100%;
+}
+.box .items-third .form form label {
+  width: 70%;
+  margin: 1rem 0;
+}
+.box .items-third .form form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 6px solid transparent;
+  border-radius: 15px;
+}
+
+

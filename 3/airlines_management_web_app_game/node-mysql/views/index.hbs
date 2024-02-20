@@ -1,0 +1,178 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to DEU Airlines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/index.css" />
+
+    
+    <script>
+
+    async function submit(){
+      let feedbackHeader = document.getElementById("subject").value + "";
+      let feedbackBody = document.getElementById("message").value + "";
+      try {
+      const response = await fetch('http://localhost:5001/api/giveFeedback?feedbackHeader=' + feedbackHeader + "&feedbackBody=" + feedbackBody);
+      alert("Your feedback has been successfully recorded.");
+      window.location.href = "/index";
+      } catch {
+        return alert('ERROR')
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="header-medium logo">
+          <li class="logo-deu"></li>
+        </ul>
+        <ul class="header-medium links">
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#learn">LEARN GAME</a></li>
+          <li><a href="/login">PLAY</a></li>
+        </ul>
+      </nav>
+    </header>
+   <section>
+      <div class="main-section">
+        <div id="learn" class="learn-game">
+          <h2>
+            How To Play
+          </h2> <br> 
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/join.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              This is the first screen you will see when you enter the game. If you already have an account, you can enter the game with your username and password by pressing the "log in" button. This way you will be logged in with your data stored in the database. If you are new to the game or want to create a new account, you can click on the "join now" button to create a new username and sign up with your password. This will add your new company to the database. And welcome! That is all you have to do to start our game.
+            </p><br>
+          </div>          
+          <br><br>
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/employee.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              If you click on the "employee" button, you will see the above screen. Here, you can hire new employees, dismiss the ones that are currently working for your company or just view the employees of your company. While doing those, you can filter the employees by their names, salaries, experiences and professions.
+            </p>
+          </div>
+          <br> <br>
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/plane.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              When you click on the "plane" button, you will be directed to the screen you see above. This screen is for buying new planes and selling the ones you have in your company or you can just view which planes you have in your fleet. You can filter your search by plane types and their prices.
+            </p>
+          </div>          
+          <br>
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/airport.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              If you want to unlock a new airport for your company, you should click on the "airport" button. On this screen you can see the list of airports for you to unlock under the "Unlock Airport" tab. And you can also see the unlocked airports of your company if you proceed to "Show Airport" tab. While doing those, you can filter your search by airport name as well as in which country and city they are.
+            </p><br>
+          </div>
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/flight.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              Now let's talk about how to make money. For this, you need to perform flights, which is the purpose of our company. You can easily do this by clicking on the "Flight" button. In "Generate Flight" tab, we create our flight by selecting the take-off and landing airports, pilots, cabin attendants and airplane required for our flight. Passsengers will be automatically drawn from the database. After calculating the money you earned from the tickets and your expenses, your profit or loss will be added to your company information. Also, if you go inside "Show Flight" tab you can see the flights you generated and the details about them such as the route, crew, passenger list and the plane of the flight.
+            </p><br>
+          </div> <br>
+          <div class="paragraph-container">
+            <div class="image-frame">
+              <img src="/images/bank.png" alt="Çerçeveli Görsel" class="frame-image" />
+            </div>
+            <p>
+              Another thing you can do in the game is to take out a loan. To do this, you need to click on the bank button and go to the "take out loan" tab. Here you can choose one of the loan options that suits you and solve your money crunch. But remember, no matter how sweet the money is, you have to pay it back.
+            </p><br>
+          </div>              
+        </div>
+        <div id="about" class="about-us">
+          <h1>About us:</h1>
+          <br>
+          <p>
+            Welcome to DEU Airlines! We are joyful that you are playing our game. We had a great time developing this game for you and enjoyed every second of it. We hope that you can enjoy the game even more than we did. Now, let us talk about ourselves rather than the game now.
+          </p>
+          <br>
+          <h4>Our Story</h4>
+          <p>
+            We are four humble friends in the 3rd year of computer engineering at Dokuz Eylul University. We all met each other during our previous projects or via each other's mutual friends. On the fifth semester, we grouped up for our Database Managemenet Systems project. We discussed about how we could offer fun and relaxing time for our users. After a few different, ideas we ended up with the Deu Airlines idea. That way, we could use a relational database and operate on it for fulfilling the needs of our assignment while creating a peaceful game for our beloved players.
+          </p>
+          <br>
+          <p>
+            We started with our web page design. The aim was to give it a calm and relaxing theme as well as making it easy to use for players. While doing that We looked from both developer and player perspectives. And we humbly think we've done a good job of that. Then we built our database. Every single information about the players and the game is drawn from our database to operate on. After that, we linked our database to our web page so that the buttons were functional.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-main">
+        <div class="info">
+          <div class="header">
+            <h1 class="header-medium">Developers</h1>
+          </div>
+          <div class="developers">
+            <div class="sefa box">
+              <ul>
+                <li class="header-small none-li"><b>Sefa Çelik</b></li>
+                <li class="none-li">2020510078</li>
+                <li class="none-li">sefaaceliik00@gmail.com</li>
+              </ul>
+            </div>
+            <div class="ozan box">
+              <ul>
+                <li class="header-small none-li"><b>Ozan Kalkan</b></li>
+                <li class="none-li">2020510044</li>
+                <li class="none-li">ozankalkan35@hotmail.com</li>
+              </ul>
+            </div>
+            <div class="hasan box">
+              <ul>
+                <li class="header-small none-li"><b>Hasan Balıkçı</b></li>
+                <li class="none-li">2021510012</li>
+                <li class="none-li">hasanbk20@gmail.com</li>
+              </ul>
+            </div>
+            <div class="yagiz box">
+              <ul>
+                <li class="header-small none-li"><b>Yağız Gökdeli</b></li>
+                <li class="none-li">2020510036</li>
+                <li class="none-li">yagizgookdeli@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="suggestions">
+          <div class="title">
+            <h1 class="header-medium color-light">
+              Send Us Your Problems or Suggestions
+            </h1>
+          </div>
+          <div class="subject">
+            <label class="header-small" for="subject">Subject:<br /></label>
+            <textarea id="subject" name="subject"></textarea>
+          </div>
+          <div class="text">
+            <label class="header-small" for="message">Message:<br /></label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="submit-div">
+            <button onclick="submit()" class="submit" type="submit" value="Submit" /> Submit </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
